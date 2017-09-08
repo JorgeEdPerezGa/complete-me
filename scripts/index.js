@@ -1,5 +1,3 @@
-const filterMe = (array) => {
-  return array
-}
+import Trie from '../scripts/Trie.js'
 
-export default filterMe
+export default Trie;
