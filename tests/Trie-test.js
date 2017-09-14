@@ -2,10 +2,6 @@ import { expect, assert } from 'chai';
 import Trie from '../scripts/Trie';
 import Node from '../scripts/Node';
 import dictionary from '../scripts/dictionary';
-// const fs = require ('fs')
-// const text = '/usr/share/dict/words';
-// const dictionary = fs.readFileSync(text).toString().trim().split('\n')
-
 
 describe('Tire functionality', () => {
 

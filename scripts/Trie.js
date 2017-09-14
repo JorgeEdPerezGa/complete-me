@@ -81,13 +81,18 @@ export default class Trie {
     })
   }
 
+
+find(s){
+  let wordsArray = [...word.toLowerCase()];
+wordsArray.forEach( letter => currentNode)
+  for (let i = 0; i < wordsArray.length; i++) {
+    currentNode = currentNode.children[wordsArray[i]]
+  }
+
+}
   select(word) {
-    let wordsArray = [...word.toLowerCase()];
     let currentNode = this.root;
 
-    for (let i = 0; i < wordsArray.length; i++) {
-      currentNode = currentNode.children[wordsArray[i]]
-    }
 
     if (currentNode.isWord) {
       currentNode.frequency++;
